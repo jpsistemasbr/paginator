@@ -54,14 +54,19 @@ echo $pager->render();
 ##### Result
 
 ````html
-<nav class="paginator">
-    <a class='paginator_item' title="Primeira página" href="?page=1"><<</a>
-    <span class="paginator_item paginator_active">1</span>
-    <a class='paginator_item' title="Página 2" href="?page=2">2</a>
-    <a class='paginator_item' title="Página 3" href="?page=3">3</a>
-    <a class='paginator_item' title="Página 4" href="?page=4">4</a>
-    <a class='paginator_item' title="Última página" href="?page=10">>></a>
-</nav>
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+          <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#">Next</a>
+        </li>
+      </ul>
+    </nav>
 ````
 
 ##### Dynamic First And Last Page
