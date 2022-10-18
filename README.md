@@ -77,7 +77,7 @@ $pager->render(null, false);
 
 ## Support
 
-###### Security: If you discover any security related issues, please email cursos@upinside.com.br instead of using the issue tracker.
+###### Security: If you discover any security related issues, please email jpsistemasbr@gmail.com instead of using the issue tracker.
 
 Se você descobrir algum problema relacionado à segurança, envie um e-mail para jpsistemasbr@gmail.com em vez de usar o
 rastreador de problemas.
